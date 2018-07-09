@@ -12,4 +12,5 @@ function johnLennonFacts(facts) {
   while (counter < facts.length) {
     array.push(`${facts[counter++]}!!!`)
   }
+  return array
 }
